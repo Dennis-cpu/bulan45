@@ -1,3 +1,8 @@
+import 'package:flutter/material.dart';
+import '../model/details/header.dart';
+import '../model/movie.dart';
+import '../model/poster.dart';
+
 class MovieDetailsHeaderWithPoster extends StatelessWidget {
   final Movie movie;
 

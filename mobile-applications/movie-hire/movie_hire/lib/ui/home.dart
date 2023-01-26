@@ -1,3 +1,13 @@
+import 'package:flutter/material.dart';
+import '../model/details/cast.dart';
+import '../model/details/thumbnail.dart';
+import '../model/movie.dart';
+import '../model/poster.dart';
+import '../util/horizontal_line.dart';
+import 'list_movie.dart';
+
+
+
 //==== START Movie App ====
 class MovieListView extends StatelessWidget {
   final List<Movie> movieList = Movie.getMovies();
