@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "637072867319",
+    "firebase_url": "https://gradhack-2022-default-rtdb.firebaseio.com",
+    "project_id": "gradhack-2022",
+    "storage_bucket": "gradhack-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637072867319:android:54e08de247881cdceef8f2",
+        "android_client_info": {
+          "package_name": "com.bulan45.mentalhealthdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637072867319-rferhl951gi0u55cc1v8q1tj3apgs543.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXH9YBld3XnkQBiFM8qpBlz5urTy9beZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637072867319-rferhl951gi0u55cc1v8q1tj3apgs543.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637072867319:android:c0d275dd6e76d15ceef8f2",
+        "android_client_info": {
+          "package_name": "com.bulan45.mltesting2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637072867319-rferhl951gi0u55cc1v8q1tj3apgs543.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXH9YBld3XnkQBiFM8qpBlz5urTy9beZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637072867319-rferhl951gi0u55cc1v8q1tj3apgs543.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

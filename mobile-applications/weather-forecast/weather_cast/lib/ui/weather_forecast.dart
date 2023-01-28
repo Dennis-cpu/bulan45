@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:weather_cast/ui/bottom_view.dart';
+import 'package:weather_cast/ui/mid_view.dart';
 
 import '../model/weather.dart';
+import '../service/network.dart';
 
 class WeatherForecast extends StatefulWidget {
   @override
@@ -8,7 +11,7 @@ class WeatherForecast extends StatefulWidget {
 }
 
 class _WeatherForecastState extends State<WeatherForecast> {
-  Future<WeatherForecastModel> forecastObject;
+  late Future<WeatherForecastModel> forecastObject;
   String _cityName = "San Diego";
 
   @override
@@ -44,7 +47,7 @@ class _WeatherForecastState extends State<WeatherForecast> {
                     );
                   } else {
                     return Container(
-                      child: Center(
+                      child: const Center(
                         child: CircularProgressIndicator(),
                       ),
                     );
@@ -78,6 +81,6 @@ class _WeatherForecastState extends State<WeatherForecast> {
     );
   }
 
-  Future<WeatherForecastModel> getWeather({String cityName}) =>
-      new Network().getWeatherForecast(cityName: _cityName);
+  Future<WeatherForecastModel> getWeather({required String cityName}) =>
+      Network().getWeatherForecast(cityName: _cityName);
 }

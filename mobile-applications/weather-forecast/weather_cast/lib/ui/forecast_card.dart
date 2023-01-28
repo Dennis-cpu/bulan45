@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../model/weather.dart';
 import '../util/convert_icon.dart';
@@ -52,7 +53,7 @@ Widget forecastCard(AsyncSnapshot<WeatherForecastModel> snapshot, int index) {
                     child: Text(
                         "${forecastList[index].temp.min.toStringAsFixed(0)} °F"),
                   ),
-                  Icon(
+                  const Icon(
                     FontAwesomeIcons.solidArrowAltCircleDown,
                     color: Colors.white,
                     size: 17,
@@ -65,7 +66,7 @@ Widget forecastCard(AsyncSnapshot<WeatherForecastModel> snapshot, int index) {
                   children: <Widget>[
                     Text(
                         "${forecastList[index].temp.max.toStringAsFixed(0)} °F"),
-                    Icon(
+                    const Icon(
                       FontAwesomeIcons.solidArrowAltCircleUp,
                       color: Colors.white,
                       size: 17,
